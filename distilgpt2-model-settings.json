@@ -1,0 +1,9 @@
+{
+  "name": "distilgpt2",
+  "implementation": "mlserver_huggingface.HuggingFaceRuntime",
+  "parameters": {
+    "extra": {
+      "task": "text-generation"
+    }
+  }
+}
